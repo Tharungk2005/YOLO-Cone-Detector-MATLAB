@@ -1,11 +1,11 @@
-# Solution to MATLAB and Simulink Challenge project 248 Cone Detection for Formula Student Driverless Competition
+﻿# YOLO Cone Detector using MATLAB & Simulink
 
 [Program link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Cone%20Detection%20for%20Formula%20Student%20Driverless%20Competition)
 
 
 # Project details
-The ability to detect cones in the scene is crucial for autonomous driving applications, such as autonomous racing, as it enables the vehicle to navigate through a course safely and efficiently. In the Formula Student driverless competitions, the teams are required to navigate through a series of cones, and detecting the cones accurately can give the team a competitive edge. In this project, we will learn how to use MATLAB® and Simulink® to detect cones in a virtual environment, which can help us gain valuable experience in autonomous driving.
-In this project, we will use the Generate Skidpad Test model introduced in R2023a in the Vehicle Dynamics Blockset™. The skidpad model includes a reference path, driver, vehicle, and visualization aides. The vehicle’s dynamics response can be visualized using photorealistic 3D scenes created with Unreal Engine in the Simulation 3D Viewer.
+The ability to detect cones in the scene is crucial for autonomous driving applications, such as autonomous racing, as it enables the vehicle to navigate through a course safely and efficiently. In the Formula Student driverless competitions, the teams are required to navigate through a series of cones, and detecting the cones accurately can give the team a competitive edge. In this project, we will learn how to use MATLABÂ® and SimulinkÂ® to detect cones in a virtual environment, which can help us gain valuable experience in autonomous driving.
+In this project, we will use the Generate Skidpad Test model introduced in R2023a in the Vehicle Dynamics Blocksetâ„¢. The skidpad model includes a reference path, driver, vehicle, and visualization aides. The vehicleâ€™s dynamics response can be visualized using photorealistic 3D scenes created with Unreal Engine in the Simulation 3D Viewer.
 - Yolov2 algorithm is used to detect cones from the "3D Simulation Camera" output.
 - Data set is Trained using MATLAB videolabbler tools and further training script
 - Trained data is used in "Deep learning object detector" block and ouput is viewed using "video viewer block".
@@ -30,5 +30,6 @@ In this project, we will use the Generate Skidpad Test model introduced in R2023
 
 # Reference
 - https://in.mathworks.com/help/vdynblks/ug/generate-skidpad-test-course.html
+
 
 
